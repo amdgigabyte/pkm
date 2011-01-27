@@ -1,0 +1,90 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="../style.css" />
+<title>nodejs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<h1 id="toc_1">nodejs</h1>
+<h2 id="toc_1.1"><a href="NodeJS.html">NodeJS</a>的安装</h2>
+
+<p>
+从github上面或者nodejs官网下最新版本的node安装包，解压（<s>版本API变动比较大，建议安装最新的版本</s>）
+</p>
+
+<pre>
+git clone git://github.com/ry/node.git
+
+cd node
+</pre>
+
+<p>
+cd 到解压的目录
+</p>
+
+<p>
+执行以下命令
+</p>
+<pre>
+./configure
+
+make
+
+make install
+</pre>
+
+<p>
+可能过程中会提示缺少openssl等，使用软件仓库添加相应的软件就行(sudo apt-get install libssl-dev)
+</p>
+<pre>
+sudo apt-get install libssl-dev    
+</pre>
+<h2 id="toc_1.2">第三方包</h2>
+<ul>
+<li>
+webSocket <a href="https://github.com/LearnBoost/Socket.IO-node">https://github.com/LearnBoost/Socket.IO-node</a>
+</li>
+<li>
+mysql <a href="https://github.com/felixge/node-mysql">https://github.com/felixge/node-mysql</a>
+</li>
+<li>
+html5 <a href="https://github.com/aredridel/html5">https://github.com/aredridel/html5</a>
+</li>
+</ul>
+
+<h2 id="toc_1.3">相关文章</h2>
+<ul>
+<li>
+<a href="http://hi.baidu.com/bsndhswd/blog/item/6a3bb70e4f58afeb36d122a1.html">http://hi.baidu.com/bsndhswd/blog/item/6a3bb70e4f58afeb36d122a1.html</a>  nodejs是什么？
+</li>
+<li>
+用nodejs做的一个实验 <a href="http://jeffkreeftmeijer.com/2010/things-i-learned-from-my-node.js-experiment/">http://jeffkreeftmeijer.com/2010/things-i-learned-from-my-node.js-experiment/</a>  <a href="http://jeffkreeftmeijer.com/2010/experimenting-with-node-js/">http://jeffkreeftmeijer.com/2010/experimenting-with-node-js/</a>
+</li>
+</ul>
+
+<h2 id="toc_1.4">node wiki</h2>
+<p>
+<a href="https://github.com/ry/node/wiki/Modules">https://github.com/ry/node/wiki/Modules</a>
+</p>
+
+<h2 id="toc_1.5">todo List</h2>
+<p>
+预计要看的几种技术
+</p>
+<ul>
+<li>
+EJS（<code>JavaScript template engine</code>）
+</li>
+<li>
+mongoDB（nosql）
+</li>
+<li>
+Express
+</li>
+<li>
+Socket.IO（websocket）
+</li>
+</ul>
+
+</body>
+</html>
