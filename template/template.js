@@ -3,8 +3,8 @@
  * @author qiaofu<amdgigabyte#gmail.com>
  * @DATE 2011-01-30
  */
-//使用ejs来编写javascript
-//引入ejs来做模板
+//浣跨敤ejs鏉ョ紪鍐檍avascript
+//寮曞叆ejs鏉ュ仛妯℃澘
 var http = require('http'),
     sys = require('sys'),
     ejs = require('ejs'),
